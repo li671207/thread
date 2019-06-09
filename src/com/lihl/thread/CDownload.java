@@ -37,9 +37,9 @@ public class CDownload implements Callable<Boolean> {
 	}
 	
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
-		CDownload td1 = new CDownload("http://img95.699pic.com/photo/50043/7258.jpg_wh860.jpg", "image1.jpg");
-		CDownload td2 = new CDownload("http://img95.699pic.com/photo/50111/2423.jpg_wh860.jpg", "image2.jpg");
-		CDownload td3 = new CDownload("http://seopic.699pic.com/photo/50070/6290.jpg_wh1200.jpg", "image3.jpg");
+		CDownload td1 = new CDownload("http://img95.699pic.com/photo/50043/7258.jpg_wh860.jpg", "images/image1.jpg");
+		CDownload td2 = new CDownload("http://img95.699pic.com/photo/50111/2423.jpg_wh860.jpg", "images/image2.jpg");
+		CDownload td3 = new CDownload("http://seopic.699pic.com/photo/50070/6290.jpg_wh1200.jpg", "images/image3.jpg");
 		
 		ExecutorService threadPool = Executors.newFixedThreadPool(3);
 		
