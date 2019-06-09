@@ -18,3 +18,16 @@
 </pre>
 
 ![Image 创建线程](https://raw.githubusercontent.com/li671207/thread/master/images/20190609151009.png)
+
+<pre>
+lamda
+(params) -> expression
+(params) -> statement
+(params) -> { statements }
+• λ希腊字母表中排序第十一位的字母，英语名称为
+Lambda，
+• 避免匿名内部类定义过多
+• 其实质属于函数式编程的概念
+
+new Thread(()->System.out.println("多线程学习)).start()
+</pre>
