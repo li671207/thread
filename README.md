@@ -17,4 +17,4 @@
 造成数据不一致。
 </pre>
 
-![Image 创建线程](https://raw.githubusercontent.com/li671207/thread/master/images/20190609151008.png)
+![Image 创建线程](https://raw.githubusercontent.com/li671207/thread/master/images/20190609151009.png)
