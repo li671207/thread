@@ -1,9 +1,17 @@
 package com.lihl.thread;
 
+
+/**
+ * 线程对象创建：静态代理
+ * @author Lihl
+ *
+ */
 public class StaticProxy {
 
 	public static void main(String[] args) {
 		new WeddingCompany(new My()).marry();
+		
+//		new Thread(new MyThread()).start();
 	}
 
 }

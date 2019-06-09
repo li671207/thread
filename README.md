@@ -31,3 +31,5 @@ Lambda，
 
 new Thread(()->System.out.println("多线程学习)).start()
 </pre>
+
+![Image 线程状态](https://raw.githubusercontent.com/li671207/thread/master/images/20190609155749.png)
