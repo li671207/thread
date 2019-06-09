@@ -16,3 +16,5 @@
 • 每个线程在自己的工作内存交互，加载和存储主内存控制不当会
 造成数据不一致。
 </pre>
+
+![Image 创建线程](https://raw.githubusercontent.com/li671207/thread/master/images/20190609151008.png)
