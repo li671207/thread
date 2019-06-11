@@ -21,13 +21,11 @@ public class Web12306 implements Runnable {
 	}
 	
 	public static void main(String[] args) {
-		int a = 10;
-		System.out.println(a--);
-//		Web12306 web12306 = new Web12306();
-//		System.out.println(Thread.currentThread().getName());
-//		new Thread(web12306,"thread1").start();
-//		new Thread(web12306,"thread2").start();
-//		new Thread(web12306,"thread3").start();
+		Web12306 web12306 = new Web12306();
+		System.out.println(Thread.currentThread().getName());
+		new Thread(web12306,"thread1").start();
+		new Thread(web12306,"thread2").start();
+		new Thread(web12306,"thread3").start();
 	}
 
 }
