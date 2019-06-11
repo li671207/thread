@@ -20,7 +20,7 @@ class Web12306 implements Runnable {
 	public void run() {
 		test();
 	}
-	
+
 	private void test() {
 		while (true) {
 			if (ticketNum <= 0) {
@@ -34,5 +34,4 @@ class Web12306 implements Runnable {
 			System.out.println(Thread.currentThread().getName() + ":" + ticketNum--);
 		}
 	}
-
 }
